@@ -16,3 +16,6 @@
    3. python manage.py runserver
    4. [참고](https://dog-sugar-f98.notion.site/django-47dc37c1206441b8892350f722bdd376)
    5. VCS > 맨위 >git
+2. startapp notice 앱추가
+   1. python ./manage.py startapp notice
+   2. shift*2번 클릭 > installed_apps > settings로 와서 밑에 'notice', 추가
