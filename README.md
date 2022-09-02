@@ -10,12 +10,17 @@
   - 댓글
   - 기숙사 공지사항, 생활규칙 전달 (관리자만 추가 가능)
 -----
-1. startproject 시작하기(복붙복붙ㄱ 최신버전 설치 후 복붙  2번 띄고> . <필수 안나오면 성공)
+1. **startproject** 시작하기(복붙복붙ㄱ 최신버전 설치 후 복붙  2번 띄고> . <필수 안나오면 성공)
    1. python -m pip install django~=3.2
    2. django-admin startproject Gimmunity .
    3. python manage.py runserver
    4. [참고](https://dog-sugar-f98.notion.site/django-47dc37c1206441b8892350f722bdd376)
    5. VCS > 맨위 >git
-2. startapp notice 앱추가
+2. **startapp notice** 앱추가
    1. python ./manage.py startapp notice
    2. shift*2번 클릭 > installed_apps > settings로 와서 밑에 'notice', 추가
+   3. models -> admin -> views -> templates -> urls
+   4. models 작업!
+      1. Notice 추가 (DB화..?)
+      2. python manage.py makemigrations notice
+      3. python manage.py migrate notice
