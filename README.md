@@ -20,7 +20,10 @@
    1. python ./manage.py startapp notice
    2. shift*2번 클릭 > installed_apps > settings로 와서 밑에 'notice', 추가
    3. models -> admin -> views -> templates -> urls
-   4. models 작업!
+   4. **models** 작업!
       1. Notice 추가 (DB화..?)
       2. python manage.py makemigrations notice
       3. python manage.py migrate notice
+   5. **admin** 작업 (pw: 미림과학고)
+      1. NoticeAdmin
+      2. python manage.py createsuperuser
