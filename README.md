@@ -27,3 +27,9 @@
    5. **admin** 작업 (pw: 미림과학고)
       1. NoticeAdmin
       2. python manage.py createsuperuser
+   6. **views**
+      1. NoticeListView
+   7. **templates**
+      1. notice_list.html
+   8. **urls**
+      1. notice:list
