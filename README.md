@@ -36,3 +36,15 @@
    8. **urls**
       1. notice:list
       2. notice:detail
+3. startapp post
+   1. python manage.py startapp post
+   2. 'post', in INSTALLED_APPS in settings.py
+   3. models
+      1. Post (라는 이름의 게시물 모델작성)
+      2. Comment (댓글란 제작 후 Post+Comment 합치기!)
+      3. python manage.py makemigrations post
+      4. python manage.py migrate post
+   4. admin
+   5. views
+   6. templates
+   7. urls
